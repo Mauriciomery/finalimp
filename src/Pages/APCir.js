@@ -1,18 +1,18 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 
-class Facto extends Component{
+class APCir extends Component{
     render() {
         return (
             <div className="paginaAux">
                 <h1>
-                    Calcular Factorial
+                    Calcular Perimetro y Area Circulo
                 </h1>
                 <p>
-                    En el siguiente cuadro ingresa el número al que le quieres calcular el factorial:
+                    En el siguiente recuadro ingresa el radio del circulo
                 </p>
                 <form>
-                    <input type="number" placeholder="Ingrese el número"/>
+                    <input type="number" placeholder="Ingrese el radio"/>
                 </form>
                 <Link to="/">
                     <button>
@@ -23,4 +23,4 @@ class Facto extends Component{
         )
     }
 }
-export default Facto
+export default APCir
