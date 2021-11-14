@@ -1,0 +1,23 @@
+.container button {
+    border: 0px;
+    padding: 10px;
+    background-color: #282c34 ;
+    border-radius: 5px;
+    color: antiquewhite;
+    margin: 5px;
+    height: 70px;
+    font-weight: bold;
+}
+.container h1 {
+    text-align: center;
+}
+.container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
