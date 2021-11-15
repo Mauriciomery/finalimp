@@ -57,9 +57,7 @@ class APTrian extends Component{
                      <h5>
                       Los resultados son: perimetro= {this.state.p}  y el area es {this.state.area}
                      </h5>
-
                 </div>
-
                 <Link to="/">
                     <button>
                         Volver a Home page

@@ -7,7 +7,7 @@ class Facto extends Component{
         super();
         this.state = {
             number:0,
-            factoresult:0
+            factoresult:1
         }
         this.operate = this.operate.bind(this)
     }
